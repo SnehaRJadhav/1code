@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Project Login Page</title>
+ <link rel="stylesheet" type="text/css" href="login.css">
+ <script src="https://kit.fontawesome.com/4d0d70b039.js" crossorigin="anonymous"></script>
+<style>
+body, html {
+ height: 100%;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+.bg-img {
+ background-image: url("bgimg.jpeg");
+ max-width: 100%;
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+.container {
+ position: absolute;
+ right: 0;
+ margin-top: 50px;
+ margin-right: 20px;
+ max-width: 350px;
+ padding: 10px;
+ background-color: white;
+ border-radius: 15px;
+ background: transparent;
+}
+.text-block {
+ position: absolute;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 50px;
+ text-align: center;
+ font-style: oblique;
+ top: 120px;
+ left: 120px;
+ background-color: rgba(0, 0, 0, 0.23312);
+ color: white;
+ padding-right: 22px;
+ border-radius: 10px;
+ max-width: 30%;
+}
+input[type=text], input[type=password] {
+ width: 100%;
+ padding: 20px;
+ margin: 5px 0 22px 0;
+ border: none;
+ background: #fff;
+ border-radius: 10px;
+ font-size: 15px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+ background-color: #ddd;
+ outline: none;
+ font-size: 20px;
+}
+
+.btn {
+ background-color: darkmagenta;
+ font-size: 20px;
+ padding: 20px 20px;
+ color: white;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+ opacity: 0.9;
+ margin-bottom: 10px;
+ border-radius: 10px;
+}
+
+.btn:hover {
+ opacity: 1;
+}
+a{
+ color: darkmagenta;
+}
+h3.a{
+ float: left;
+ text-align: left;
+ text-decoration: underline;
+}
+h3.b{
+ float: right;
+ text-align: right;
+ text-decoration: underline;
+}
+</style>
+ </head>
+ <body>
+ <div class="bg-img">
+ <div class="text-block">
+ <p>
+ Take Your<br> Mood <br>On<br> Next Level
+ </p>
+ </div>
+ <form class="container">
+ <h1>Login</h1>
+
+ <label for="email"><b>Email</b></label>
+ <i class="fa-solid fa-lock"></i>
+ <input type="text". placeholder="Enter Email" name="email" required>
+ <label for="psw"><b>Password</b></label>
+ <i class="fa-solid fa-lock-open"></i>
+ <input type="password" placeholder="Enter Password" name="psw" required>
+ <button type="submit" class="btn">Login</button>
+ <a href="index.html">
+ </a>
+    </form>
+    </div>
+    </body>
+    </html>
+   
